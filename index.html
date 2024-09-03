@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
+
 <body>
 
     <nav>
@@ -14,9 +16,9 @@
             <h2>Rivals masters</h2>
         </div>
         <div class="nav-op">
-            <a href="Weapons">Weapons</a>
-            <a href="Weapons">Maps</a>
-            <a href="Weapons">Tips</a>
+            <a href="#weapons">Weapons</a>
+            <a href="#maps">Maps</a>
+            <a href="#tips">Tips</a>
         </div>
     </nav>
     <header>
@@ -24,7 +26,112 @@
         <img src="https://tr.rbxcdn.com/6612f9c141242fa8b1b63a3aaa5e1e68/768/432/Image/Webp">
     </header>
     <main>
+        <section id="weapons">
+            <h2>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-swords" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M21 3v5l-11 9l-4 4l-3 -3l4 -4l9 -11z" />
+                    <path d="M5 13l6 6" />
+                    <path d="M14.32 17.32l3.68 3.68l3 -3l-3.365 -3.365" />
+                    <path d="M10 5.5l-2 -2.5h-5v5l3 2.5" />
+                </svg> Weapons <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-swords"
+                    width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M21 3v5l-11 9l-4 4l-3 -3l4 -4l9 -11z" />
+                    <path d="M5 13l6 6" />
+                    <path d="M14.32 17.32l3.68 3.68l3 -3l-3.365 -3.365" />
+                    <path d="M10 5.5l-2 -2.5h-5v5l3 2.5" />
+                </svg>
+            </h2>
+
+            <div class="juan">
+                <a href="/weapons/primary">
+                    <h3>Primary</h3>
+                </a>
+                <a href="">
+                    <h3>Secondary</h3>
+                </a>
+                <a href="">
+                    <h3>Melee</h3>
+                </a>
+            </div>
+            <div class="chu">
+                <button onclick="randomWeapon()" id="resultado">
+                    <h3>
+                        <span>Click for a</span>
+                        <p></p>
+                        Random Weapon
+                    </h3>
+                </button>
+                <a href="">
+                    <h3>Utility</h3>
+                </a>
+            </div>
+        </section>
+
+        <section id="maps">
+            <h2>
+                Maps
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-map-search">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5" />
+                    <path d="M9 4v13" />
+                    <path d="M15 7v5" />
+                    <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                    <path d="M20.2 20.2l1.8 1.8" />
+                </svg>
+            </h2>
+
+            <div class="maps-img">
+                <img src="/images/arena.png">
+
+                <img src="/images/big-arena.png">
+
+                <img src="/images/crossroads.png">
+
+                <img src="/images/big-crossroads.png">
+
+                <img src="/images/shootingrange.png">
+
+                <img src="/images/backrooms.png">
+
+                <img src="/images/construction.png">
+
+                <img src="/images/station.png">
+
+                <img src="/images/onix.png">
+
+                <img src="/images/docks.png">
+
+            </div>
+
+
+        </section>
+
+        <section id="tips">
+            <h2>Tips</h2>
+            <p>Have good aim nen</p>
+
+        </section>
 
     </main>
+
+    <div class="big-div">
+        <img src="/arena.png" class="big">
+    </div>
+
+    <div class="wiki">
+        Thanks to <h4>
+            <a href="https://roblox.fandom.com/wiki/Nosniy_Games/RIVALS" target="_blank">Roblox Wiki</a>
+        </h4>
+    </div>
+
+
 </body>
+
 </html>
